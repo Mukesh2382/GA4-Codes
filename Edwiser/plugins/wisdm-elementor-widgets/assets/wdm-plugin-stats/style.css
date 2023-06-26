@@ -1,0 +1,153 @@
+.wisdm-elementor-pluginstats {
+    background-color: #ebebeb;
+    padding: 15px 0px;
+}
+.wisdm-elementor-pluginstats.is-style-mb-view {
+    /* display: none; */
+}
+.wisdm-elementor-pluginstats .blk-heading {
+    display: none;
+}
+.wisdm-elementor-pluginstats .ps-wrap {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 815px;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.wisdm-elementor-pluginstats .ps-wrap .th3 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 0;
+    display: initial;
+    color: black;
+}
+.wisdm-elementor-pluginstats .ps-wrap .ds {
+    color: #444;
+    font-weight: 700;
+    font-size: 14px;
+    margin: unset;
+}
+.wisdm-elementor-pluginstats .ps-wrap .pl-list {
+    flex: 2 1 auto;
+    padding-right: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.wisdm-elementor-pluginstats .ps-wrap .pl-list .pl-details, .wisdm-elementor-pluginstats .ps-wrap .pl-list .pl-version {
+    margin: 0 30px;
+}
+.wisdm-elementor-pluginstats .ps-wrap .ch-log {
+    border-left: 1px solid #d8d8d8;
+    padding-left: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.wisdm-elementor-pluginstats .ps-wrap .ch-log a {
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #d7d7d7;
+    box-shadow: none;
+    color: #f86935;
+    background-color: transparent !important;
+    border-color: #d8d8d8;
+    padding: 5px 10px;
+    width: 117px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 14px;
+}
+.wisdm-elementor-pluginstats .txt-mandat {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    color: #666;
+    line-height: 1;
+    margin-top: 4px;
+}
+@media screen and (max-width: 768px) {
+    .wisdm-elementor-pluginstats.is-style-ds-view {
+        display: none !important;
+    }
+    .wisdm-elementor-pluginstats {
+        display: none;
+   }
+    .wisdm-elementor-pluginstats .txt-mandat {
+        display: none;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view {
+        display: block;
+        background: white;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .blk-heading {
+        display: block;
+        text-align: center;
+        font-weight: 700;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .up-stat {
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+        margin: 10px 0px;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .pl-details {
+        width: 50%;
+        padding: 20px 0 15px 15px;
+        text-align: left;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap {
+        display: block;
+        width: 90%;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .ch-log {
+        border-left: 0px solid #d8d8d8;
+        padding-left: 0px;
+        align-items: center;
+        display: block;
+        justify-content: space-between;
+        border-top: 1px solid #bebebe;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .ch-log a {
+        padding: 8px 10px;
+        font-weight: 400;
+        font-size: 14px;
+        width: max-content;
+        display: block;
+        margin: 0 auto;
+        line-height: 1;
+        height: unset;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 0px;
+        justify-content: flex-start;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list .pl-version {
+        width: 50%;
+        padding: 20px 0 15px 15px;
+        text-align: left;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list > div {
+        border-bottom: 1px solid #bebebe;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list :last-child {
+        border-bottom: 0px solid #bebebe;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list .pl-details, .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .pl-list .pl-version {
+        margin: unset;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .th3 {
+        color: #444;
+        font-size: 16px;
+        line-height: 22px;
+   }
+    .wisdm-elementor-pluginstats.is-style-mb-view .ps-wrap .ds {
+        font-size: 16px;
+        line-height: 22px;
+   }
+}

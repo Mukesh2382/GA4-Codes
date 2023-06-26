@@ -1,0 +1,80 @@
+.wdm-elementor-faqs .blk-heading {
+    text-align: center;
+}
+.wdm-elementor-faq {
+    margin: 1rem;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+    background: #fff;
+    overflow: hidden;
+}
+.wdm-elementor-faq .wdm-faq-radio {
+    display: none;
+}
+.wdm-elementor-faq .wdm-faq-q {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wdm-elementor-faq .wdm-faq-q h4 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+.wdm-elementor-faq .wdm-faq-q .fa-angle-right {
+    margin: auto 0;
+    color: black;
+}
+.wdm-elementor-faq .wdm-faq-q .fa-angle-down {
+    display: none;
+    color: black;
+}
+.wdm-elementor-faq .wdm-faq-a {
+    color: black;
+    background: #f4f4f4;
+    transition: all 0.35s;
+    display: none;
+    margin: unset;
+}
+.wdm-elementor-faq .wdm-faq-radio:checked + .wdm-faq-q {
+    border-bottom: 1px solid #ddd;
+    background: #f4f4f4;
+}
+.wdm-elementor-faq .wdm-faq-radio:checked + .wdm-faq-q .fa-angle-right {
+    display: none;
+}
+.wdm-elementor-faq .wdm-faq-radio:checked + .wdm-faq-q .fa-angle-down {
+    display: block;
+}
+.wdm-elementor-faq .wdm-faq-radio:checked ~ .wdm-faq-a {
+    padding: 1em;
+    display: block;
+}
+
+/* asdsad */
+.wwdm-elementor-faq {
+    margin: 1rem;
+    border: 0px solid #ebebeb;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    background: #fff;
+    overflow: hidden;
+}
+.wwdm-elementor-faq .wdm-faq-radio {
+    display: none;
+}
+.wwdm-elementor-faq .wdm-faq-q {
+    opacity: 1;
+    z-index: 1;
+    padding: 0;
+    position: inherit;
+    justify-content: left;
+}
+.wwdm-elementor-faq .wdm-faq-a {
+    color: black;
+    background: white;
+    transition: all 0.35s;
+    display: block;
+}
+

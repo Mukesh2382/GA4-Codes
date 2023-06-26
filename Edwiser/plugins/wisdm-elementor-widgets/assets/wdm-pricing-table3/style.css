@@ -1,0 +1,979 @@
+/* Common pricing table CSS */
+.ups-title-wrap {
+    text-align: center;
+    margin: 25px 0;
+}
+.ups-title-wrap .uhd-st {
+    font-weight: 300;
+}
+.ups-plan-duration {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.upspd-txt {
+	line-height: 1;
+	padding: 0;
+}
+.upspd-h5 {
+	align-items: center;
+	color: #666;
+	display: inline-flex;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0;
+	min-height: 25px;
+	min-width: 67px;
+	transition: all 0s ease 0.2s;
+}
+.upspd-h5.active {
+	color: #444;
+	font-weight: bold;
+}
+.upspd-txt-1 > .upspd-h5 {
+	justify-content: flex-end;
+}
+.upspd-txt-1 > .upspd-h5,
+.upspd-txt-2 > .upspd-h5 {
+	font-size: 18px;
+}
+.upspd-switch-main {
+	display: flex;
+	margin: 0 14px;
+}
+.upspd-checkbox {
+	display: none;
+}
+input:focus ~ label.upspd-switch-label,
+input:valid ~ label.upspd-switch-label {
+	color: inherit;
+	font-size: inherit;
+	padding: 0 5px;
+	top: 0;
+}
+.upspd-switch-label {
+	align-items: center;
+	background-color: #fff;
+	border-radius: 13px;
+	border: 1px solid #d1d1d1;
+	cursor: pointer;
+	display: inline-flex;
+	height: 25px;
+	position: relative;
+	width: 51px;
+	margin-bottom: 20px;
+}
+.upspd-switch-label.active > .upspd-slider {
+	margin-left: 21px;
+}
+.upspd-slider {
+	background-color: #F45B25;
+	border-radius: 9px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+	display: block;
+	height: 19px;
+	margin-left: 0;
+	pointer-events: none;
+	transition: margin 0.2s ease;
+	width: 18px;
+}
+.upp-price-w {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	line-height: 1;
+}
+.upp-reg-price {
+	color: #999;
+}
+.upp-price-diff-w {
+	display: inline-block;
+}
+.upp-price-diff-inr {
+	display: block;
+	border: 1px solid #ebebeb;
+	border-radius: 20px;
+}
+.upp-license-w {
+	color: #999999;
+}
+.ups-note-w {
+	flex: 1 1 auto;
+}
+.ups-note {
+	font-size: 12px;
+	margin: 33px 0 0;
+}
+/* Popular Price Plan */
+.upp-inr.ups-popular, .ups-column.ups-popular {
+    position: relative;
+    overflow: hidden;
+}
+span.popular-plan-col {
+    position: absolute;
+    left: -31px;
+    top: 14px;
+    background-color: #f75d25;
+    color: #fff;
+    padding: 0 36px;
+    font-size: 12px;
+    font-weight: 700;
+    transform: rotate(-41deg);
+    line-height: 22px;
+    z-index: 1;
+}
+
+.wdm-hide{
+	display: none;
+}
+/* Popular Price Plan End */
+
+@media only screen and (min-width: 768px) {
+	.hide-d {
+		display: none;
+	}
+
+	.upspd-h5 {
+		font-size: 16px;
+	}
+
+	.ups-table.ups-table-4 {
+		justify-content: center;
+	}
+
+	.header-pricing-w {
+		background-color: #f7f7f7;
+		max-width: 100%;
+		box-shadow: 0 3px 6px rgba(0,0,0,.1);
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		display: none;
+	}
+
+	.ups-table-3 {
+		max-width: 990px;
+	}
+	.ups-table-3 .ups-column {
+		width: 25%;
+	}
+	.ups-table-3 .ups-col {
+		max-width: 190px;
+	}
+	.ups-table-3 .ups-col-1,
+	.ups-table-3 .ups-col-1-sticky {
+		min-width: 333px;
+	}
+
+	.ups-table-2 {
+		max-width: 900px;
+	}
+	.ups-table-2 .ups-column {
+		width: 33.33%;
+	}
+	.ups-table-2 .ups-col {
+		max-width: 218px;
+	}
+	.ups-table-2 .ups-col-1,
+	.ups-table-2 .ups-col-1-sticky {
+		min-width: 333px;
+	}
+
+	.ups-plan-w.empty-sticky {
+		padding-top: 25px;
+		background: #f7f7f7;
+		min-height: 80px;
+	}
+	.ups-col-sticky {
+		padding: 0px;
+	}
+
+	.ups-col-1 {
+		padding-top: 20px;
+	}
+
+	.ups-col-1-sticky {
+		padding-top: 0px;
+	}
+
+	.ups-cell {
+		align-items: center;
+		border-top: 1px solid #f7f7f7;
+		display: flex;
+		min-height: 55px;
+		padding: 0 13px 0 10px;
+	}
+
+	.ups-cell:first-of-type {
+		border-top: none;
+	}
+
+	.ups-cell.hover .uprh-info-w {
+		visibility: visible;
+	}
+
+	.ups-cell.hover button.ups-viewmore-complimentary-0,
+	.ups-cell.hover button.ups-viewmore-subfeatures-0,
+	.ups-cell.hover button.ups-viewmore-subfeatures-1,
+	.ups-cell.hover button.ups-viewmore-subfeatures-2,
+	.ups-cell.hover button.ups-viewmore-subfeatures-3,
+	.ups-cell.hover button.ups-viewmore-subfeatures-4 {
+		background-color: #f75d2517 !important;
+	}
+	
+	.ups-cell.feature_heading {
+		font-weight: 700;
+		/* color: #f75d25; */
+		padding-left: 0px;
+	}
+
+	.upt-w {
+		justify-content: center;
+	}
+
+	.ups-col-inr > .ups-cell:last-of-type {
+		border-bottom: 1px solid #f7f7f7;
+	}
+
+	.ups-col.highlighted .wdm-pricing-button {
+		border-radius: 3px;
+	}
+
+	.upp-title.upp-title-sticky {
+		min-height: 0px;
+		margin-bottom: 0px;
+	}
+
+	.upp-title-w .upp-description {
+		position: absolute;
+		background-color: #fff;
+		box-shadow: 0 3px 8px rgba(0,0,0,.2);
+		padding: 7px;
+		font-size: 14px;
+		color: #444;
+		margin-right: 15px;
+		display: none;
+	}
+
+	.upp-title-w:hover .upp-description {
+		display: block;
+	}
+
+	.upp-price-w {
+		min-height: 30px;
+	}
+
+	.upp-reg-price {
+		font-size: 30px;
+		line-height: 41px;
+	}
+
+	.upp-reg-price.strike {
+		margin-right: 15px;
+	}
+
+	.upp-sale-price {
+		color: #666;
+		font-size: 20px;
+		line-height: 27px;
+	}
+
+	.upp-price-diff-w {
+		min-width: 120px;
+		min-height: 23px;
+		margin-bottom: 19px;
+	}
+
+	.upp-price-diff-inr {
+		font-size: 14px;
+		line-height: 22px;
+		margin-top: 6px;
+	}
+
+	.uprh-info-w {
+		cursor: pointer;
+		margin-left: 10px;
+		min-width: 18px;
+		position: relative;
+		visibility: hidden;
+	}
+
+	.uprh-info-w.active > .uprh-popup-w {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.uprh-popup-w {
+		backface-visibility: hidden;
+		padding-left: 25px;
+		position: absolute;
+		top: -20px;
+		transform: translate(23px, 0);
+		visibility: hidden;
+		opacity: 0;
+		width: 327px;
+		z-index:2;
+	}
+	.uprh-info-w .uprh-popup-w {
+		left: -5px;
+	}
+	.uprh-popup {
+		position: relative;
+		background-color: #fff;
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+		padding: 23px 9px 23px 20px;
+	}
+	.uprh-t {
+		font-size: 14px;
+		line-height: 21px;
+		text-align: left;
+		max-width: 255px;
+	}
+	.uprh-info-i {
+		display: block;
+	}
+	.uprh-popup-c {
+		color: #666666;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: left;
+		line-height: 20px;
+	}
+	.uprh-pc-t {
+		margin-bottom: 5px;
+	}
+	.uprh-pc-ds {
+		font-weight: normal;
+	}
+	.uprh-close {
+		display: none;
+		justify-content: flex-end;
+		margin-bottom: 9px;
+	}
+	.ups-viewmore-w,
+	.ups-viewmore-w1,
+	.ups-viewmore-w-complimentary-0,
+	.ups-viewmore-w-subfeatures-0,
+	.ups-viewmore-w-subfeatures-1,
+	.ups-viewmore-w-subfeatures-2,
+	.ups-viewmore-w-subfeatures-3,
+	.ups-viewmore-w-subfeatures-4 {
+		padding: 4px 13px 30px 19px;
+		text-align: left;
+	}
+	.ups-viewmore-w.sub-feature-viewmore {
+		padding: 0px;
+	}
+	button.ups-viewmore,
+	button.ups-viewmore-complimentary-0,
+	button.ups-viewmore-subfeatures-0,
+	button.ups-viewmore-subfeatures-1,
+	button.ups-viewmore-subfeatures-2,
+	button.ups-viewmore-subfeatures-3,
+	button.ups-viewmore-subfeatures-4 {
+        background-color: transparent !important;
+        border: none;
+        font-weight: 600;
+		color: #f45b25 !important;
+	}
+	.ups-viewmore-w:hover > .ups-viewmore,
+	.ups-viewmore-w1:hover > .ups-viewmore1 {
+		background-color: #f75d2526 !important;
+	}
+
+	.ups-viewmore,
+	.ups-viewmore-complimentary-0,
+	.ups-viewmore-subfeatures-0,
+	.ups-viewmore-subfeatures-1,
+	.ups-viewmore-subfeatures-2,
+	.ups-viewmore-subfeatures-3,
+	.ups-viewmore-subfeatures-4 {
+		font-size: 12px;
+		height: 30px;
+		line-height: 16px;
+		padding: 0;
+		width: 75px;
+	}
+
+	.upt-icon-w {
+		display: inline-flex;
+	}
+
+	.ups-viewmore-empty {
+		display: block;
+		height: 30px;
+	}
+
+	.wdm-cta-buy-now-button > a {
+		display: flex;
+		justify-content: center;
+	}
+	.uprh-highlights {
+		font-weight: bold;
+	}
+	.uprh-popup-arrow {
+		display: inline-block;
+		width: 20px;
+		height: 44px;
+		position: relative;
+		overflow: hidden;
+		position: absolute;
+		left: 5px;
+		top: 9px;
+	}
+	.uprh-popup-arrow:after {
+		content: "";
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		background: #fff;
+		transform: rotate(45deg);
+		top: 10px;
+		left: 9px;
+		box-shadow: -1px -1px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.hide-m {
+		display: none;
+	}
+
+	.ups-plan-duration {
+		margin-bottom: 30px;
+	}
+
+	.up-plan {
+		min-width: 246px;
+		position: relative;
+		padding: 3px 13px 3px 13px;
+	}
+	.upp-title {
+		color: #6c6c6c;
+		font-size: 13px;
+		line-height: 17px;
+		text-transform: uppercase;
+        font-weight: bold;
+        width: 100%;
+	}
+
+	.upp-title-w .upp-description {
+		font-size: 12px;
+		color: #222;
+		font-weight: lighter;
+		margin-top: 5px;
+		min-height: 35px;
+	}
+
+	.upp-reg-price {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.upp-reg-price.strike {
+		font-weight: normal;
+		font-size: 26px;
+		line-height: 36px;
+		margin-right: 12px;
+	}
+
+	.upp-sale-price {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.upp-price-w {
+		margin-bottom: 9px;
+		min-height: 36px;
+	}
+
+	.upp-viewmore {
+		border-radius: 3px;
+		border: 1px solid #d8d8d8;
+		margin-bottom: 22px;
+		font-size: 16px;
+		line-height: 22px;
+		padding: 5px 12px;
+		color: #f45b25;
+		margin: 0 10px 22px;
+		width: 100%;
+	}
+
+	.upp-price-diff-inr {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 3px 20px;
+	}
+
+	.upp-price-diff-w {
+		margin-bottom: 14px;
+		min-height: 26px;
+	}
+
+	.upp-btn-w, .wdm-cta-buy-now-button, .wdm-cta-buy-now-button > a {
+		display: block;
+	}
+
+	.price-slick .wdm-cta-buy-now-button input[type="submit"] {
+		width: 100% !important;
+	}
+
+	.upsmdl {
+		align-items: center;
+		backface-visibility: hidden;
+		display: flex;
+		height: 100%;
+		left: 0;
+		padding: 45px;
+		position: fixed;
+		right: 0;
+		top: 0;
+		transform: translate3d(0, 0, 0);
+		transition: visibility 0.3s, background 0.3s ease-in-out;
+		visibility: hidden;
+		width: 100%;
+		z-index: 99;
+	}
+
+	.upsmdl.show {
+		background-color: rgba(0, 0, 0, 0.8);
+		visibility: visible;
+	}
+
+	.upsmdl.show > .upsmdl-inr {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.upsmdl-inr {
+		background-color: #fff;
+		height: 100%;
+		opacity: 0;
+		overflow: hidden;
+		transform: scale(0.7);
+		transition: transform 0.3s, opacity 0.3s ease-in-out;
+		width: 100%;
+	}
+
+	.upsmdl-head {
+		border-bottom: 1px solid #dedede;
+		display: flex;
+		padding: 8px 7px 9px;
+	}
+
+	.upsmdl-head-c {
+		flex: 2 2 auto;
+		text-align: center;
+	}
+
+	.upsmdl-head-title {
+		color: #6c6c6c;
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 0;
+	}
+
+	.upsmdl-head-price-w {
+		color: #454545;
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.upsmdl-head-price-w > .upp-reg-price,
+    .upsmdl-head-price-w > .upp-sale-price {
+		font-size: 20px;
+		line-height: 27px;
+		font-weight: 400;
+	}
+
+	.upsmdl-head-price-w > .upp-reg-price.strike {
+		margin-right: 9px;
+	}
+
+	.upsmdl-close-w {
+		min-width: 23px;
+		text-align: center;
+	}
+
+	.upsmdl-close-icon-w {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+	}
+
+	.upsmdl-close-icon {
+		fill: none;
+		stroke: #951a1d;
+		stroke-linecap: round;
+		stroke-width: 2px;
+	}
+
+	.upsmdl-c-w {
+		height: calc(100% - 64px);
+		overflow: auto;
+		padding: 8px 14px;
+	}
+
+	.upsmdl-c-count {
+		color: #999999;
+		font-size: 12px;
+		line-height: 17px;
+		margin-bottom: 9px;
+	}
+
+	.ups-title-wrap,
+  .ups-note {
+		padding: 0 21px;
+	}
+}
+
+/* features in modal, on mobile */
+.ufqi-ico.closing {
+    display: none;
+}
+.ufq-itm {
+    text-align: left;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.ufq-itm.active {
+    background-color: #f4f4f4;
+}
+.ufq-itm.active .ufqi-th3 {
+    font-weight: bold;
+}
+.ufqi-title-w {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 18px 20px 26px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+}
+.ufq-itm.active .ufqi-title-w {
+    border: none;
+    box-shadow: none;
+}
+.ufqi-th3 {
+    font-size: 16px;
+    margin: 0;
+    color: #242424;
+    line-height: 22px;
+    font-weight: normal;
+}
+.ufqi-ico-w {
+    color: #f45b25;
+    line-height: 1;
+    margin-left: 14px;
+}
+.ufq-itm.active .closing {
+    display: inline-block;
+}
+.ufq-itm.active .opening {
+    display: none;
+}
+.ufqi-c {
+    color: #666;
+    display: none;
+    padding: 0 48px 30px 26px;
+    font-size: 16px;
+    line-height: 26px;
+    white-space: pre-line;
+}
+@media only screen and (max-width: 767px) {
+    .ufqi-ico-w {
+        font-size: 21px;
+   }
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+a.tooltip {
+    position: relative;
+}
+
+span.tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: #fff;
+    color: #960000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    border: 1px solid #960000;
+
+  /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: -41%;
+    top: 120%;
+    font-size: 13px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.hide{
+	display: none;
+}
+
+.regular-price-on-header{
+	display: none;
+}
+
+/* Pricing Table 3 CSS */
+.wpt-3-features-col.ups-column, .wpt-3-product-col.ups-column {
+	padding: 0;
+}
+.wpt-3-product-col.highlighted {
+	background-color: #F9F9F9;
+	border: 0.5px solid #C4C4C4;
+	border-radius: 4px;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+	min-width: 219px;
+	z-index: 1;
+}
+.wpt-3-table-wrapper .ups-col-inr {
+	font-weight: 400;
+	margin-top: 12px;
+}
+.wpt-3-desktop .upspd-h5 {
+	min-width: 75px;
+}
+.wpt-3-upp-title {
+	font-weight: 700;
+}
+.wpt-3-table-wrapper .wpt-3-feature-subtitle {
+	font-size: 11px;
+    font-weight: 700;
+}
+.wpt-3-table-wrapper .wpt-3-feature-subtitle ul {
+	margin-bottom: 0;
+    margin-left: 22px;
+}
+.wpt-3-table-wrapper .wpt-3-feature-subtitle ul li::marker {
+	color: #f75d25;
+}
+.wpt-3-table-wrapper .wpt-3-feature-subtitle ul span {
+	margin-left: -8px;
+}
+.wpt-3-table-wrapper .wpt-3-feature-price {
+	font-weight: 700;
+}
+.wpt-3-table-wrapper .ups-cell.hover {
+	background: rgba(255, 182, 115, 0.1);
+}
+.wpt-3-table-wrapper .wpt-3-feature-price.ups-cell.hover {
+	color: #F98012;
+}
+.wpt-3-table-wrapper .wpt-3-col-action-buttons {
+	padding: 30px 0 20px;
+	position: relative;
+	text-align: center;
+}
+.wpt-3-edwiser-main-product-annual-lifetime-price{
+	margin-bottom: 12px;
+}
+.wpt-3-edwiser-main-product-annual-lifetime-price .upp-price-w,
+.wpt-3-edwiser-main-product-annual-lifetime-price .wpt-3-upp-reg-price,
+.wpt-3-edwiser-main-product-annual-lifetime-price .wpt-3-upp-sale-price
+{
+	display: flex;
+	flex-direction: column;
+}
+.wpt-3-upp-reg-price-wrapper, .wpt-3-upp-sale-price-wrapper {
+	margin: 10px;
+}
+.wpt-3-upp-reg-price-wrapper .wpt-3-reg-price-label, .wpt-3-upp-sale-price-wrapper .wpt-3-sale-price-label  {
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.wpt-3-dollar-image-sale-price-wrapper {
+	display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+img.wpt-3-dollar-image-sale-price {
+    background: white;
+    border: black;
+    border-radius: 50%;
+    margin-left: -12px;
+	z-index: 1;
+}
+.wpt-3-upp-reg-price-wrapper .wpt-3-upp-reg-price.strike {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+	text-decoration: line-through #F98012;
+}
+.wpt-3-upp-sale-price-wrapper .wpt-3-upp-sale-price {
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    color: #009621;
+	font-size: 20px;
+	font-weight: 700;
+    justify-content: right;
+	line-height: normal;
+    margin-left: -28px;
+    padding: 7px 18px 7px 32px;
+}
+.wpt-3-table-wrapper .wdm-pricing-button {
+	color: #fff !important;
+    background-color: #f75d25;
+	padding: 10px 20px;
+}
+.wpt-3-table-wrapper .wdm-pricing-button:hover {
+	background-color: #fff !important;
+	color: #f75d25 !important;
+}
+.wpt-3-price-tip {
+	color: black;
+	display: flex;
+	font-style: italic;
+	font-size: 12px;
+	justify-content: center;
+	margin: 20px auto 24px;
+}
+.wpt-3-table-wrapper .wpt-3-price-tip-annual-lifetime {
+	margin: 15px;
+	text-align: center;
+}
+@media only screen and (min-width: 768px) {
+	.ups-table {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.wpt-3-feature-price-wrapper {
+		display: flex;
+	}
+	.wpt-3-ups-plan-w.empty {
+		flex-direction: column;
+		max-width: 446px;
+	}
+	.wpt-3-ups-plan-w.empty, .wpt-3-upp-plan-w-inr {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		min-height: 68px;
+		padding: 10px;
+	}
+	.wpt-3-ups-plan-w.empty h5, .wpt-3-ups-plan-w.empty label {
+		margin-bottom: 0;
+	}
+	.upp-title {
+		display: inline-block;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 10px;
+		min-width: 130px;
+		position: relative;
+		padding: 3px 15px;
+	}
+	.wpt-3-feature-item .wpt-3-feature-inner {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+	}
+	.ups-cell {
+		align-items: center;
+		border-top: 1px solid #f7f7f7;
+		display: flex;
+		justify-content: center;
+		min-height: 55px;
+		padding: 0 13px 0 10px;
+	}
+	.ups-col-1 .ups-cell {
+		justify-content: flex-start;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.wpt-3-mobile .slick-list {
+		overflow: visible;
+	}
+	.wpt-3-mobile .wpt-3-upp-inr {
+		border: 0.5px solid #C4C4C4;
+		border-radius: 4px;
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+	}
+	.wpt-3-mobile .wpt-3-upp-plan-w {
+		border-radius: 4px 4px 0 0;
+		display: flex;
+		justify-content: center;
+		padding: 15px 10px;
+		width: 100%;
+	}
+	.wpt-3-mobile .slick-list {
+		padding: 0 !important;
+	}
+	.wpt-3-mobile .wpt-3-features-mobile {
+		padding: 0 12px;
+	}
+	.wpt-3-mobile .wpt-3-single-feature-price-wrapper {
+		align-items: center;
+		display: flex;
+		padding-top: 20px;
+	}
+	.wpt-3-mobile .wpt-3-feature-item {
+		width: 88%;
+	}
+	.wpt-3-mobile .wpt-3-feature-title {
+		font-weight: 400;
+	}
+	.wpt-3-mobile .wpt-3-feature-subtitle {
+		font-size: inherit;
+		font-weight: 700;
+	}
+	.wpt-3-mobile .wpt-3-feature-price-div {
+		min-width: 50px;
+		width: 12%;
+	}
+	.wpt-3-mobile .wpt-3-col-action-buttons {
+		border-radius: 0 0 4px 4px;
+	}
+	.wpt-3-price-tip {
+		margin: 20px 14px 24px 14px;
+	}
+}
+/* End of Pricing Table 3 CSS */

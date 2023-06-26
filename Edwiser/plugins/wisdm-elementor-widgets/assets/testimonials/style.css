@@ -1,0 +1,161 @@
+.wisdm-testimonials{
+  font-family: open sans,Sans-serif;
+  padding: 15px;
+}
+
+.wisdm-testimonial-wrap{
+    box-sizing: border-box ;
+}
+.wisdm-testimonials .slick-slide{
+  opacity: 0.6;
+  height: auto;
+  min-height: 322px;
+  padding: 30px;
+  margin: 28px 10px;
+  box-shadow: 0 3px 4px rgb(0 0 0 / 16%);
+  border-radius: 6px;
+  background:url(https://wisdmlabs.com/site/wp-content/uploads/2022/01/wd-gray-quote-1.png) no-repeat;
+}
+.wisdm-testimonials .slick-center{
+  opacity: 1;
+  background-color: white !important;
+  margin-top: 13px;
+  box-shadow:  0 12px 30px rgb(150 0 0 / 11%);
+  background:url(https://wisdmlabs.com/site/wp-content/uploads/2022/01/wd-red-quote-3.png) no-repeat;
+}
+.wisdm-tm-details{
+  padding: 10px;
+}
+.wisdm-testimonials .wisdm-tm-meta{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1;
+}  
+
+.wisdm-testimonials .wisdm-tm-meta .wisdm-tm-image{
+    padding: 10px ;
+    display:table-cell;
+    vertical-align:middle;
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 60px;
+}
+
+.wisdm-testimonials .wisdm-tm-meta .wisdm-tm-image img{
+  width: 79px;
+  height: 81px;
+  border-radius:81px 81px 81px 81px;
+}
+
+
+.wisdm-testimonials .wisdm-tm-meta .wisdm-tm-details{
+    padding-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.wisdm-testimonials .wisdm-tm-meta .wisdm-tm-details .wisdm-tm-author{
+  color: #333;
+  margin-bottom: 5px;
+  font-size:16px;
+  text-align: left;
+  line-height:1em;
+  font-weight: 700;
+}
+
+.wisdm-testimonials .wisdm-tm-meta .wisdm-tm-details .wisdm-tm-company{
+  display:block;
+  color:#999999;
+  font-size:14px;
+  line-height:1em;
+}
+
+/* slick */
+.wisdm-testimonials .slick-arrow {
+  color: #726762 !important;
+  display: block !important;
+}
+.wisdm-testimonials .slick-arrow .dashicons {
+  font-size: 38px ;
+  opacity: 0.8;
+}
+
+.wisdm-testimonials .slick-dots{
+  display: flex !important;
+  justify-content: center;
+}
+.wisdm-testimonials .slick-dots li.slick-active button{
+  background: #960000 !important;
+}
+
+.wisdm-testimonials .slick-dots li button:before{
+  font-size: 10px;
+  content: '';
+}
+
+.wisdm-testimonials .slick-dots li{
+  width: 9px;
+}
+.wisdm-testimonials .slick-dots button{
+  padding: 0px;
+    width: 11px;
+    height: 3px;
+    background: #6666662e !important;
+}
+.wisdm-tm-desc{
+  color: #666;
+  font-family: zilla slab,Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.wisdm-testimonials .slick-arrow .dashicons{
+  background: linear-gradient(180deg,#F7F7F7 0%,#E5E5E5 100%);
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 7px 7px;
+}
+.wisdm-testimonials .slick-arrow:hover{
+  border:none;
+}
+
+.wisdm-testimonials .slick-arrow:hover > .dashicons{
+  background: linear-gradient(180deg,#960000 0%,#520c0c 100%);
+  color: white;
+}
+
+/* .wisdm-testimonials .slick-prev {
+  z-index: 1;
+  top: calc(100% - 4px)!important;
+  left: calc(50% - 61px)!important;
+}
+.wisdm-testimonials .slick-next {
+  z-index: 1;
+  top: calc(100% - 4px)!important;
+  right: calc(50% - 61px)!important;
+} */
+
+.wisdm-testimonials  .slick-dots{
+  padding: 0;
+}
+
+.wisdm-testimonials  a.view-less{
+  display: inline-block !important;
+}
+.wisdm-testimonials  a.read-more{
+  display: inline-block !important;
+}
+
+
+.wisdm-testimonials .slick-track{
+  display: flex;
+}
+
