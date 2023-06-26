@@ -1,0 +1,139 @@
+
+/* Case Studies */
+.case-study-slider {
+    width: 100%;
+    height: 100%;
+}
+.wdm-case-studies .container{
+    max-width: 1020px;  
+    padding: 0 15px;        
+    margin: auto;
+}
+.wdm-case-studies .swiper-wrapper{
+    max-width: 900px;  
+    margin: auto;
+}
+.case-study-slider{
+    padding: 10px 0;
+}
+.wdm-case-studies .case-study-item {
+    background-color: white;
+    box-shadow: 1px 1px 4px 0px #07070747;
+    width: 305px !important;
+}
+.wdm-case-studies .case-study-item:hover{
+    box-shadow: 3px 5px 14px 4px #d0aeae4f;
+}
+.wdm-case-studies .case-study-content {
+    padding: 15px 17px;
+    padding-bottom: 28px;
+    text-align: left;
+}
+.wdm-case-studies .case-study-img img{
+    height: 205px;
+    width: 100% ;
+}
+.case-study-content .read-more{
+    font-size: 14px;
+    color: #333;
+}
+.case-study-content .case-study-title{
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.case-study-content .case-study-title a{
+    color: #666666;
+}
+.wdm-case-studies .swiper-pagination-bullet{
+    background-color: #c3c3c3;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.wdm-case-studies .swiper-pagination-bullet-active{
+    background-color: #951a1d;
+}
+
+.wdm-case-studies .swiper-pagination-bullets{
+    padding-top: 20px;
+}
+
+.wdm-case-studies .swiper{
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wdm-case-studies .swiper-button-next , .wdm-case-studies .swiper-button-prev{
+    position: absolute;
+    cursor: pointer;
+    background-image: none;
+}
+
+@media (max-width: 1284px){
+    .wdm-case-studies .swiper-button-next{
+        display: none;
+    }
+    .wdm-case-studies .swiper-button-prev{
+        display: none;
+    }
+}
+@media only screen and (min-device-width: 1285px) and (max-device-width: 1622px){
+    .wdm-case-studies .swiper-button-next{
+        left: 90% ;
+    }
+    .wdm-case-studies .swiper-button-prev{
+        left: 10% ;
+    }
+    
+}
+@media (min-width: 1622px){
+    .wdm-case-studies .swiper-button-next{
+        left: 81% ;
+    }
+    .wdm-case-studies .swiper-button-prev{
+        left: 19% ;
+    }
+}
+
+.case-study-content .read-more:after{
+    margin-left: 2px;
+    content: ">";
+    background: url(https://wisdmlabs.com/site/wp-content/uploads/2022/01/wd-read-more-icon.svg) no-repeat center center;
+    color: transparent!important;
+    transition: all .45s;
+}
+.case-study-content .read-more:hover{
+    color: #960000!important;
+}
+.cs-heading{
+    color: #333;
+    font-family: open sans,Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.cs-title{
+    background: -webkit-linear-gradient(#960000,#6e1414,#333333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    color: #960000;
+    font-family: open sans,Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+.wdm-case-studies{
+    padding: 60px 0;
+}

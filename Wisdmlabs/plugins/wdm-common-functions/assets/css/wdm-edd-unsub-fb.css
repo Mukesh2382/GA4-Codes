@@ -1,0 +1,279 @@
+.unsub-feedback-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #00000085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    overflow: auto;
+}
+
+.unsub-feedback-content-wrap {
+    width: 70%;
+    background-color: #fff;
+    padding: 60px;
+    /* text-align: center; */
+    position: relative;
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+}
+
+.unsub-feedback-content-wrap-with-linkcta {
+    width: 50%;
+    padding: 30px
+}
+
+.unsub-feedback-close {
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+div.wpcf7-response-output {
+    margin: .5em .5em 1em
+}
+
+.unsub-feedback-content-wrap .cf7-submit-btn {
+    padding: 2%;
+    margin: 1%;
+}
+
+.unsub-feedback-content-wrap label.your-name-label,
+.unsub-feedback-content-wrap label.your-email-label {
+    width: 47%;
+    display: inline-block;
+    margin: 1%;
+}
+
+.unsub-feedback-content-wrap span.your-name input,
+.unsub-feedback-content-wrap span.your-email input {
+    padding: 4%;
+}
+
+.unsub-feedback-content-wrap .subscribe-label {
+    display: block;
+    margin: 3%;
+}
+
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+p.submit-para {
+    margin-bottom: 0.5rem
+}
+
+@media only screen and (max-width: 767px) {
+    .unsub-feedback-content-wrap .unsub-feedback-content-wrap {
+        padding: 20px;
+    }
+
+    .unsub-feedback-content-wrap label.your-name-label,
+    .unsub-feedback-content-wrap label.your-email-label {
+        width: 94%;
+        display: block;
+        margin: 3%;
+    }
+
+    .unsub-feedback-content-wrap .subscribe-label {
+        margin: 1%;
+    }
+
+    .unsub-feedback-content-wrap-with-linkcta {
+        width: 85%;
+        padding: 15px
+    }
+}
+
+.form-heading {
+    text-align: center;
+    color: #960000;
+}
+
+.form-field {
+    margin-top: 25px;
+    margin-bottom: 15px!important;
+    color: #6b6b6b;
+}
+
+span.wpcf7-list-item.last {
+    width: 100%;
+}
+
+input#text-license-key, select.menu-select-plugin, input.text-full-name, input.purchase-email {
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.wpcf7-form-control-wrap textarea {
+    resize: none;
+    border-radius: 3px;
+}
+
+span.wpcf7-form-control-wrap {
+    margin-top: 5px;
+    display: block;
+}
+
+input.form-cancel, .popup_content input[type="submit"] {
+    color: #a73232 !important;
+    background: #fff !important;
+    border: 1px solid #a73232;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 7px 18px;
+    width: auto;
+    text-shadow: none;
+    border-radius: 3px;
+    line-height: normal;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+input.form-cancel:hover, .popup_content input[type="submit"]:hover{
+    color: #fff !important;
+    background: #a73232 !important;
+}
+
+.wdm-submit-field-div{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.form-heading h3 {
+    margin: unset;
+    font-weight: 700;
+    font-size: 16px;
+}
+.form-heading p {
+    color: #6b6b6b;
+    margin: unset;
+    font-size: 14px;
+}
+.request-share{
+    font-weight: 700;
+}
+
+.radio-reason input[type="radio"]{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    vertical-align: middle;
+    background-color: inherit;
+    color: #017b5f;
+    border: 2px solid #666;
+    border-radius: 24px;
+
+}
+
+.popup_content input[type="radio"] {
+    box-sizing: border-box;
+    /* padding: 0; */
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 11px 23px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0;
+    outline: 0;
+    background-color: transparent;
+    opacity: 0;
+    position: absolute;
+}
+
+.radio-button__control {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #960000;
+    border: 1px solid #0000003b;
+    border-radius: 15px;
+}
+
+.radio-button__control_selected:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #960000;
+    border-radius: 8px;
+    top: 6px;
+    left: 6px;
+    position: absolute;
+}
+
+.radio-button__control_selected {
+    border-color: #0000003b;
+}
+
+.radio-button__control {
+    transform: scale(0.75);
+    float: left;
+}
+
+.wpcf7-radio span.wpcf7-list-item {
+    margin: 0px;
+    border: 1px solid #ddd;
+    margin: 4px;
+    border-radius: 5px;
+}
+.wpcf7-radio span.wpcf7-list-item label{
+    padding: 4px!important;
+}
+.wpcf7-radio span.wpcf7-list-item, .wpcf7-radio span.wpcf7-list-item label{
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+.reason-options{
+    font-size: 14px;
+}
+.mandatory-mark {
+    color: #960000;
+}
+
+/* p.cf-accordion-label .mandatory-mark{
+    font-size: 26px;
+    vertical-align: bottom;
+}
+span.cf-label .mandatory-mark {
+    font-size: 26px;
+    vertical-align: middle;
+} */
+@media only screen and (max-width: 840px) {
+    .wpcf7-radio span.wpcf7-list-item {
+        padding: 5px!important;
+    }
+    .popup_content .wpcf7-list-item-label .reason-options{
+        width: 78%;
+    }
+}

@@ -1,0 +1,158 @@
+tr.wdm_edd_cart_header_row th, .wdm_edd_cart_footer_row th {
+    text-transform: inherit;
+    color: #666666;
+    font-weight: 700;
+}
+
+tr.wdm_edd_cart_header_row th:not(:first-child){
+    text-align: center;
+}
+
+.wdm-block-cart-table tbody td {
+    border: none;
+    border-top: 1px solid #eaeaea;
+}
+.wdm-block-cart-table tbody{
+    border: none;
+}
+.wdm_edd_cart_item_licenses{
+    color: #666666;
+    
+}
+
+.wdm_edd_cart_item_image {
+    display: inline-block;
+    width: 50px;
+}
+.wdm_edd_cart_item_image img {
+    max-width: 40px;
+}
+.wdm_edd_cart_item_name_div {
+    display: inline-block;
+    vertical-align: super;
+}
+
+span.product_item_name {
+    color: #960000;
+    line-height: 22px;
+}
+td.wdm_edd_cart_item_name_value {
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+span.recurring_license_period, .edd-sl-renewal-details, .edd-sl-renewal-label, .edd-sl-renewal-key {
+    display: block;
+    color: #666666;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.wdm-empty-cart {
+    text-align: center;
+    padding: 4%;
+    background: #eee;
+}
+
+.license_options{
+    display: block;
+}
+.license_options:not(.license_options_checked){
+    cursor: pointer;
+}
+
+
+td.wdm_edd_cart_item_licenses {
+    text-align: center;
+}
+
+span.license_options {
+    margin: auto;
+    border: 1px solid #eaeaea;
+    width: max-content;
+    border-radius: 6px 6px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: left;
+}
+span.license_options_checked {
+    border: none;
+    background: #f7f7f7;
+}
+
+/* .license_options input[type="radio"]{
+    /* float: left; */
+    /* margin: 6px 0px; */
+/* } */ 
+span.license_options_quantity, img.radio_button_img {
+    vertical-align: middle;
+}
+
+span.license_options_radio {
+    vertical-align: middle;
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+td.wdm_edd_cart_item_price_value,td.wdm_edd_cart_item_action {
+    vertical-align: initial;
+}
+
+td.wdm_edd_cart_item_action {
+    color: #444444;
+    text-align: center;
+}
+
+.wdm_edd_cart_item_action img {
+    margin-right: 7px;
+    vertical-align: text-top;
+}
+.wdm_edd_cart_item_action span{
+    vertical-align: top;
+}
+
+.wdm_edd_cart_item_price_value{
+    color: #666666;
+    text-align: center;
+}
+
+.license_options .license_options_quantity{
+    color: #666666;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.license_options:not(.license_options_checked) .license_options_quantity{
+    color: #960000;
+    font-weight: 400;
+}
+.wdm-block-cart-table td, .wdm-block-cart-table th {
+    padding: 20px 0px;
+}
+th.edd_cart_total {
+    text-align: right;
+    padding-right: 10px;
+}
+th.edd_cart_amount {
+    text-align: center;
+}
+tr.wdm_edd_cart_footer_row {
+    background: #f7f7f7;
+}
+.wdm-block-cart-table-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    margin-bottom: 0px;
+}
+tr.wdm_edd_cart_header_row th, .wdm_edd_cart_footer_row th, .wdm_edd_cart_item_licenses, span.product_item_name, span.recurring_license_period, td.wdm_edd_cart_item_action, .wdm_edd_cart_item_price_value, .license_options_quantity{
+    font-size: 14px;
+}
+.contact-menu-item{
+    /* display: none!important; */
+    opacity: 0;
+}

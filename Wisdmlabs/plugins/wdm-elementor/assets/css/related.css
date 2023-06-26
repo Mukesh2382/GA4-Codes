@@ -1,0 +1,130 @@
+.wdm-block-related-product-image {
+    display: flex;
+    width: 12%;
+    background: #f7f7f7;
+    height: 153px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wdm-block-related-product-content {
+    display: inline-block;
+    width: 85%;
+    margin-left: 2%;
+}
+
+.wdm-block-related-products {
+    margin: 20px 0px;
+}
+
+.wdm_edd_related_products_img {
+    width: 50px;
+}
+
+h4.wdm-block-related-product-title {
+    font-size: 18px;
+    color: #444444;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.wdm-block-related-product-cta a {
+    border: 1px solid #951A1D;
+    padding: 10px 15px;
+    border-radius: 3px;
+    line-height: 50px;
+}
+
+.wdm-block-related-product-cta {
+    display: block;
+}
+
+.wdm-block-related-product-rating {
+    display: block;
+}
+.wdm-block-related-product-cta a {
+    border: 1px solid #951A1D;
+    padding: 10px 15px;
+    border-radius: 3px;
+    line-height: 50px;
+}
+
+.wdm-block-related-product-cta {
+    display: block;
+}
+
+.wdm-block-related-product-rating {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.wdm-block-related-products {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.wdm-block-related-products-heading{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+}
+.wdm-block-related-product-sale-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+.wdm-block-related-product-sale-count{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #444444;
+}
+.wdm-block-related-product-avg-rate-value{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+}
+.wdm-block-related-product-avg-rate-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+     color: #444444;
+}
+.wdm-block-related-product-avg-rate {
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .wdm-block-related-products{
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+    }
+    .wdm-block-related-product-image{
+        width: 100%;
+        height: 100px;
+    }
+    .wdm_edd_related_products_img {
+        width: auto;
+    }
+    .wdm-block-related-product-sale, .wdm-block-related-product-avg-rate{
+        display: block;
+    }
+    .wdm-block-related-product-content {
+        margin: 2%;
+        text-align: center;
+    }
+}
